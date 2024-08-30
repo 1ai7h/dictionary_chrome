@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Book shape -->
+  <path d="M50 40 L150 40 L150 160 Q100 140 50 160 Z" fill="white" stroke="black" stroke-width="4"/>
+  
+  <!-- Pages -->
+  <path d="M60 50 L140 50 M60 70 L140 70 M60 90 L140 90" stroke="black" stroke-width="3"/>
+  
+  <!-- Letter 'D' -->
+  <path d="M80 110 Q120 110 120 135 Q120 160 80 160 Z" fill="white" stroke="black" stroke-width="3"/>
+</svg>

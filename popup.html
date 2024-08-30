@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Definition Lookup</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 300px;
+      margin: 0;
+      padding: 16px;
+      background-color: #f0f4f8;
+    }
+    .container {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 16px;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+    .logo {
+      width: 32px;
+      height: 32px;
+      margin-right: 12px;
+    }
+    h2 {
+      color: #2c3e50;
+      margin: 0;
+      font-size: 20px;
+    }
+    #definition {
+      color: #34495e;
+      line-height: 1.5;
+    }
+    .word {
+      font-weight: bold;
+      color: #3498db;
+      font-size: 18px;
+    }
+    .part-of-speech {
+      color: #e74c3c;
+      font-style: italic;
+      margin-bottom: 8px;
+    }
+    .synonyms {
+      margin-top: 8px;
+      font-size: 14px;
+      color: #8e44ad; /* Changed to purple */
+    }
+    .loading {
+      color: #7f8c8d;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="dictionary-app-logo.svg" alt="Dictionary Logo" class="logo">
+      <h2>Word Definition</h2>
+    </div>
+    <div id="definition" class="loading">Loading...</div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
